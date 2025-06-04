@@ -1,0 +1,18 @@
+.itemList {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  margin: 24px 0;
+}
+
+.itemList strong {
+  color: #539BF5;
+  font-size: 25px;
+}
+
+.itemList p {
+  color: #999999;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
