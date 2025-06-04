@@ -28,4 +28,4 @@ O **GitFind** é uma aplicação feita com React que permite buscar usuários do
 - Os repositórios são listados com map().
 
 ##💡 Exemplo de uso
-Digite rafaelalavorato e veja o perfil e repositórios públicos diretamente na interface!
+- Digite rafaelalavorato e veja o perfil e repositórios públicos diretamente na interface!
