@@ -1,12 +1,31 @@
-# React + Vite
+# GitFind 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **GitFind** é uma aplicação feita com React que permite buscar usuários do GitHub e visualizar algumas informações públicas, como:
 
-Currently, two official plugins are available:
+- Foto de perfil
+- Username
+- Nome
+- Bio
+- Lista de repositórios (em ordem alfabética)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React** com JSX
+- **JavaScript** (ES6+)
+- **Hooks do React** (`useState`)
+- **Fetch API** para requisições HTTP
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Funcionalidades
+
+- Buscar informações de qualquer usuário público do GitHub
+- Exibir os dados básicos do perfil
+- Listar todos os repositórios públicos em ordem alfabética
+
+## 🧠 Como funciona
+- O usuário digita um nome de usuário do GitHub.
+- A aplicação faz uma requisição para a GitHub API.
+- Os dados são exibidos na tela utilizando o useState para armazenar e renderizar dinamicamente as informações.
+- Os repositórios são listados com map().
+
+##💡 Exemplo de uso
+Digite rafaelalavorato e veja o perfil e repositórios públicos diretamente na interface!
